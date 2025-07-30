@@ -10,11 +10,11 @@ export function Title({ text, description }: TitleType) {
 
     return (
 
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 bg-red">
 
-            <h1>{text} - esse foi o titulo recebido como prop</h1>
+            <h1 className="text-2xl">{text} - esse foi o titulo recebido como prop</h1>
 
-            <p>{description}</p>
+            <p className="font-light">{description}</p>
 
         </div>
 
